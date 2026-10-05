@@ -1,11 +1,28 @@
-<title>Drawshot</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0d0603">
+<title>Drawshot - free browser paint shooter game</title>
+<meta name="description" content="Drawshot is a free online game: paint the whole map green by shooting guards with splatting paint guns. Collect coins, buy upgrade cards and log in with a username. Plays in your browser on phone and computer.">
+<meta name="keywords" content="Drawshot, paint shooter, browser game, free online game, platform shooter, hand drawn game">
+<meta name="author" content="rkeizer2020">
+<link rel="canonical" href="https://rkeizer2020.github.io/drawshot/">
+<meta property="og:url" content="https://rkeizer2020.github.io/drawshot/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Drawshot - free browser paint shooter game">
+<meta property="og:description" content="Paint the whole map green with your paint guns. Free, in your browser.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Drawshot - free browser paint shooter game">
+<meta name="twitter:description" content="Paint the whole map green with your paint guns. Free, in your browser.">
+<link rel="icon" href="data:image/png;base64,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">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rye&display=swap">
 <style>
   :root { --bg: #0d0603; --fg: #f3ece4; --muted: #a89a8c; --btn: #e2820a; --btn-fg: #0d0603; --line: #3a2a1f; }
-  /* Layout: game canvas centered at 16:9, controls hint and touch pad below */
-  html, body { height: 100%; }
-  body { background: var(--bg); color: var(--fg); margin: 0; padding-inline: 16px; padding-block: 16px; box-sizing: border-box;
-    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+  html { background: var(--bg); }
+  body { background: var(--bg); color: var(--fg); margin: 0; padding: 16px; box-sizing: border-box; min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center; gap: 14px;
     font-family: "Trebuchet MS", system-ui, sans-serif; color-scheme: dark; }
   canvas { width: 100%; max-width: min(1270px, calc((100vh - 120px) * 1270 / 709)); height: auto; aspect-ratio: 1270 / 709; display: block; border: 3px solid var(--line); border-radius: 4px; touch-action: none; }
   .hint { margin: 0; color: var(--muted); font-size: 14px; text-align: center; }
@@ -15,10 +32,35 @@
     background: var(--btn); color: var(--btn-fg); touch-action: none; user-select: none; }
   .pad button:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
   @media (hover: hover) and (pointer: fine) { .pad { display: none; } }
+  .about { max-width: 680px; margin: 28px 0 40px; line-height: 1.55; color: var(--muted); }
+  .about h1 { font: 40px Rye, Georgia, serif; color: var(--btn); margin: 0 0 8px; }
+  .about h2 { font-size: 18px; color: var(--fg); margin: 22px 0 6px; }
+  .about ul { padding-left: 20px; margin: 6px 0; }
 </style>
+</head>
+<body>
 <canvas id="game" width="1270" height="709"></canvas>
 <p class="hint"><kbd>←</kbd> <kbd>→</kbd> move &nbsp; <kbd>↑</kbd> jump &nbsp; <kbd>1</kbd> left gun &nbsp; <kbd>2</kbd> right gun (one shot per press) (click the game first)</p>
 <div class="pad"><button id="btn-left" aria-label="Move left">←</button><button id="btn-up" aria-label="Jump">↑</button><button id="btn-right" aria-label="Move right">→</button><button id="btn-fire-l" aria-label="Fire left gun">1</button><button id="btn-fire-r" aria-label="Fire right gun">2</button></div>
+<main class="about">
+<h1>Drawshot</h1>
+<p>Drawshot is a free paint shooter that runs in your browser. Walk and jump through a hand-drawn map, shoot the guards with your two paint guns and cover every surface in green paint.</p>
+<h2>How to play</h2>
+<ul>
+<li>Guards come after you. Every guard you defeat leaves a paint stain, and a surface turns green when all of its parts are stained.</li>
+<li>Paint the ground and every platform green to complete the level.</li>
+<li>Red guards stand on the small platforms and shoot back, so keep moving.</li>
+</ul>
+<h2>Coins, cards and your account</h2>
+<ul>
+<li>Every guard you defeat gives you a coin. Spend coins in the shop on upgrade cards, which change every 5 minutes.</li>
+<li>Equip up to 3 cards at a time on the cards screen.</li>
+<li>Log in with a username and a password (no e-mail address needed) to keep your coins and cards on every device.</li>
+</ul>
+<h2>Controls</h2>
+<p>Arrow keys to walk and jump, <kbd>1</kbd> and <kbd>2</kbd> to fire the left and right gun. On a phone or tablet, use the buttons under the game.</p>
+</main>
+<noscript><p style="color:#a89a8c">Drawshot needs JavaScript to run.</p></noscript>
 <script>
 
 const ASSETS = {
@@ -1333,3 +1375,5 @@ canvas.addEventListener('pointerdown', e => {
 })();
 
 </script>
+</body>
+</html>
